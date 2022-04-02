@@ -54,7 +54,7 @@ class App extends React.Component{
     };
     intervalClicked = ()=>{
 
-        const {intervalsStorage, hour, minute, second,btnDisabled} = this.state;
+        const {intervalsStorage, hour, minute, second,} = this.state;
         intervalsStorage.push(`${hour}:${minute}:${second}`);
         this.setState({ 
             intervalsStorage: intervalsStorage, 
